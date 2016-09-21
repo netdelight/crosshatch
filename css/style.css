@@ -1,0 +1,32 @@
+body{
+    text-align: center;
+}
+.col{
+    display: inline-block;
+}
+#form{
+    width: 300px;
+    margin: auto;
+    padding: 20px 0;
+}
+#form label,
+#form .input-box,
+#form button{
+    display: inline-block;
+    box-sizing:border-box;
+}
+#form .field{
+    text-align: left;
+}
+#form label{
+    width: 75%;
+    padding: 5px 10px;
+}
+#form .input-box{
+    width: 25%;
+    padding: 5px 2px 5px 10px;
+}
+footer{
+    font-size: 75%;
+    padding: 20px 0;
+}
