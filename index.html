@@ -1,0 +1,25 @@
+<!doctype html>
+<html lang="fr">
+<html>
+    <head>
+        <title>crosshatch generator inpired by chuck close</title>
+        <link rel="stylesheet" href="css/style.css">
+        <meta charset="utf-8">
+    </head>
+    
+    <body>
+        <div id="main">
+            <h1>crosshatch generator</h1>
+            <div class="col"><img src="img/portrait-big.jpg" id="main-pix" /></div>
+            <div class="col"><canvas id="myCanvas"></canvas></div>
+        </div>
+        <div id="form">
+            <div class="field"><label for="steps">Line complexity</label><input type="number" name="steps" id="steps" value="9" min="2" class="input-box" /></div>
+            <div class="field"><label for="rate">Sampling rate (square size)</label><input type="number" name="rate" id="rate" value="10" class="input-box" /></div>
+            <div class="field"><label for="grid">Show grid</label><input type="checkbox" id="grid" name='grid' checked /></div>
+            <button id="btn">UPDATE</button>
+        </div>
+        <footer>inspired by <a href="https://www.artsy.net/artwork/chuck-close-phil-crosshatch-2">chuck close self-portraits</a> -  sources on github</footer>
+        <script src="js/function.js"></script>
+    </body>
+</html>
