@@ -1,8 +1,17 @@
 body{
     text-align: center;
 }
+#main{
+    margin: auto;
+    width:75%;
+}
 .col{
+    width: 40%;
     display: inline-block;
+}
+img, canvas{
+    max-width: 100%;
+    height: auto;
 }
 #form{
     width: 300px;
